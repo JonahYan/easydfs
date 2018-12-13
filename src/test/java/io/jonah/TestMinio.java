@@ -17,7 +17,7 @@ public class TestMinio {
 	public void testClient(){
 		 try {
 		      // 使用Minio服务的URL，端口，Access key和Secret key创建一个MinioClient对象
-		      MinioClient minioClient = new MinioClient("http://172.16.0.68:9000", "BJ1XTH099QIICK06Z6ZA", "8wzLEflTWAnfirMk7WxmCHLuNXfZiFj+eb4OSt6h");
+		      MinioClient minioClient = new MinioClient("http://127.0.0.1:9000", "BJ1XTH099QIICK06Z6ZA", "8wzLEflTWAnfirMk7WxmCHLuNXfZiFj+eb4OSt6h");
 		      // 检查存储桶是否已经存在
 		      boolean isExist = minioClient.bucketExists("test");
 		      if(isExist) {
@@ -41,7 +41,7 @@ public class TestMinio {
 	public void test2(){
 		 try {
 		      // 使用Minio服务的URL，端口，Access key和Secret key创建一个MinioClient对象
-		      MinioClient minioClient = new MinioClient("http://172.16.0.140:9000", "BJ1XTH099QIICK06Z6ZA", "8wzLEflTWAnfirMk7WxmCHLuNXfZiFj+eb4OSt6h");
+		      MinioClient minioClient = new MinioClient("http://127.0.0.1:9000", "BJ1XTH099QIICK06Z6ZA", "8wzLEflTWAnfirMk7WxmCHLuNXfZiFj+eb4OSt6h");
 		      // 检查存储桶是否已经存在
 		      boolean isExist = minioClient.bucketExists("test");
 		      if(isExist) {
