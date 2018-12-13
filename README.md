@@ -3,7 +3,7 @@
 
 # require
    JDK8   
-   Minio（https://github.com/minio/minio）  
+   Minio (https://github.com/minio/minio)
 
 
 # quickstart
