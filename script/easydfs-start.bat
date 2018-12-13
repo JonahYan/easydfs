@@ -1,0 +1,1 @@
+start "EasyDFS分布式文件系统 By Jonah Yan" cmd /c java -jar easydfs.jar JAVA_OPTS="-server -Xmx1g -Xms1g -Xmn128m -Xss256k -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:LargePageSizeInBytes=64m -XX:+UseFastAccessorMethods -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=70 -Duser.timezone=GMT+8"

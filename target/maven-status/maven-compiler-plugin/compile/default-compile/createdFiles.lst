@@ -1,0 +1,11 @@
+io\jonah\service\impl\MinioFileServiceImpl.class
+io\jonah\common\handler\GlobalExceptionHandler.class
+io\jonah\entity\R.class
+io\jonah\entity\MinioProperties.class
+io\jonah\web\FileController.class
+io\jonah\common\config\MinioConfig.class
+io\jonah\service\IFileService.class
+io\jonah\Application.class
+io\jonah\common\exception\FileException.class
+io\jonah\repository\MinioRepository.class
+io\jonah\common\validation\Assert.class
